@@ -1,6 +1,6 @@
 {
   "name": "async-replace-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light Weight string.replace working asynchronously",
   "main": "index.js",
   "scripts": {

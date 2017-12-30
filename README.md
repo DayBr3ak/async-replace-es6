@@ -40,7 +40,7 @@ function asyncReplacer(match, ...groups) {
             if (err) {
                 return reject(err);
             }
-            resolve(data);
+            resolve(data.toString());
         });
     });
 }
