@@ -13,7 +13,7 @@ function makePromiseSeq(promiseFn) {
 async function replace(str, regex, asyncFn, notifyCb = DO_NOTHING) {
     const promises = [];
     str.replace(regex, (match, ...args) => {
-        const promise = asyncFn(match, ...args)
+        const promise = asyncFn(match, ...args);
         promises.push(promise);
         promise
             .then(notifyCb)
@@ -37,4 +37,4 @@ module.exports = {
         replace,
         replaceSeq
     }
-}
+};
