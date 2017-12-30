@@ -1,0 +1,22 @@
+{
+  "name": "async-replace-es6",
+  "version": "1.0.0",
+  "description": "Light Weight string.replace working asynchronously",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "string",
+    "replace",
+    "async",
+    "asynchronous",
+    "promises",
+    "es6"
+  ],
+  "author": "Daybr3ak",
+  "license": "MIT",
+  "devDependencies": {
+    "colors": "^1.1.2"
+  }
+}
