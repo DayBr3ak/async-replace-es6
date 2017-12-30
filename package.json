@@ -1,6 +1,6 @@
 {
   "name": "async-replace-es6",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Light Weight string.replace working asynchronously",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "license": "MIT",
   "devDependencies": {
     "colors": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Daybr3ak/async-replace-es6.git"
   }
 }
